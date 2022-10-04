@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #FFF;
+  color: #000;
+}
+
+.button-brown {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFF;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.button-blue {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFF;
+  background-color: #82B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.button-green {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFF;
+  background-color: #7DB54F;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.button-rating{
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  background-color: #F2F2F2;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+
+}
+
+.page-header {
+  color: #000;
+  background-color: #FFF;
+}
+
+.navigation-link {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  background-color: #FFF;
+  text-decoration: none;
+  text-transform: none;
+
+}
+
+.description {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.description-little {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.about {
+  color: #000;
+  background-color: #FFF;
+  background-image: url("../image/adventeges/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+.advanteges-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #82B3D3;
+  margin: 0;
+
+}
+
+.advanteges-description {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFF;
+  background-color: #82B3D3;
+  margin: 0;
+}
+
+.advanteges-title-black {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #83B3D3;
+  margin: 0;
+}
+
+.advanteges-description-black {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+  background-color: #83B3D3;
+  margin: 0;
+}
+
+.subscribe {
+
+  background-image: url("../image/footer/background-image-footer.jpg");
+}
+
+.catalog-filter {
+
+  background-image: url("../image/catalog/header-catalog.jpg");
+}
